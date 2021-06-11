@@ -6,6 +6,7 @@ import {
   ActivityIndicator,
   Button
 } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../../redux/store';
 import { fetchUsers, selectAllUsers } from '../../redux/store/users';
@@ -24,25 +25,27 @@ const Home = () => {
   }
 
   return (
-    <View>
-      <Button title={'Reload'} onPress={() => dispatch(fetchUsers())} />
-      {users.map((user) => {
-        return (
-          <View style={styles.container} key={user.id}>
-            <View>
-              <View style={styles.dataContainer}>
-                <Text>
-                  {user.first_name} {user.last_name}
-                </Text>
-              </View>
-              <View style={styles.dataContainer}>
-                <Text>{user.email}</Text>
+    <SafeAreaView>
+      <View>
+        <Button title={'Reload'} onPress={() => dispatch(fetchUsers())} />
+        {users.map((user) => {
+          return (
+            <View style={styles.container} key={user.id}>
+              <View>
+                <View style={styles.dataContainer}>
+                  <Text>
+                    {user.first_name} {user.last_name}
+                  </Text>
+                </View>
+                <View style={styles.dataContainer}>
+                  <Text>{user.email}</Text>
+                </View>
               </View>
             </View>
-          </View>
-        );
-      })}
-    </View>
+          );
+        })}
+      </View>
+    </SafeAreaView>
   );
 };
 

@@ -7,10 +7,9 @@ import BottomTabNavigator from './BottomTabNavigator';
 
 function Navigation() {
   return (
-    <NavigationContainer>
-      <StackNavigator/>
-      <BottomTabNavigator/>
-    </NavigationContainer>
+      <NavigationContainer>
+        <BottomTabNavigator />
+      </NavigationContainer>
   );
 }
 
