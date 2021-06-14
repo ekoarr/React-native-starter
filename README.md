@@ -1,6 +1,7 @@
 # React Native Starter
 
-This starter is helpful to start your React Native application. Technologies includes Expo, Typescript, React redux, Reduxjs/toolkit, React navigation, Native-base
+This starter is helpful to start your React Native application. Tools includes:
+**Expo**, **Typescript**, **React redux**, **Reduxjs/toolkit**, **React navigation 5**, **Native-base**
 
 
 ## Getting Started
