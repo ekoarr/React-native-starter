@@ -15,6 +15,12 @@ git clone https://github.com/ekoarr/React-native-starter
 npm install
 ```
 
+## EXPO
+1.Install EXPO
+```bash
+npm install --global expo-cli
+```
+
 ## Usage 
 1.Running the app
 ```bash
