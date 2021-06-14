@@ -1,5 +1,4 @@
 # React Native Starter
-___
 <a href="http://www.typescriptlang.org/"><img src="https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg?style=flat-square" height="20"></a>
 
 This starter is helpful to start your React Native application. Tools includes:
