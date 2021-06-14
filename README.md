@@ -28,3 +28,6 @@ npm run android
 ```bash
 npm run ios     # requires an iOS device or macOS for access to an iOS simulator
 ```
+
+## License
+Copyright © 2021-present ekoarr. This source code is licensed under the MIT license found in the LICENSE file.
