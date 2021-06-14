@@ -1,7 +1,7 @@
-# React Native Starter
+# React Native Expo Starter
 <a href="http://www.typescriptlang.org/"><img src="https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg?style=flat-square" height="20"></a>
 
-React native starter. This starter is helpful to start your React Native application. Tools includes:
+React native expo starter that helpful to start your React Native application. Tools includes:
 **Expo**, **Typescript**, **React redux**, **Reduxjs/toolkit**, **React navigation 5**, **Native-base**
 
 
